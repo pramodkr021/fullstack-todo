@@ -1,0 +1,139 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, #74ABE2, #5563DE);
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 50px;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+.todo-container {
+    background: white;
+    width: 100%;
+    max-width: 500px;
+    padding: 25px 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    margin: 8px 0;
+    display: flex;
+    gap: 10px;
+}
+
+.container button {
+    all: unset;
+}
+
+.task-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 14px;
+    margin: 7px 0;
+    border-radius: 10px;
+    background: #f5f7fb;
+    transition: all 0.3s ease;
+}
+
+.task-item:hover {
+    background: #eef1f9;
+    transform: translateY(-2px);
+}
+
+.task-text {
+    flex: 1;
+    margin-left: 10px;
+    font-size: 1rem;
+}
+
+.task-text.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.task-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.md-icon {
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.md-icon.edit {
+    color: #f0ad4e;
+}
+
+.md-icon.delete {
+    color: #e63946;
+}
+
+.md-icon.save {
+    color: #38b000;
+}
+
+.md-icon.cancel {
+    color: #6c757d;
+}
+
+.search {
+    color: skyblue;
+}
+
+.md-common {
+    border: 1px solid #666;
+    padding: 6px;
+    border-radius: 6px;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.add {
+    color: rgb(95, 201, 95);
+}
+
+.md-icon:hover {
+    transform: scale(1.2);
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    outline: none;
+    transition: border 0.2s ease, box-shadow 0.2s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 4px rgba(102, 126, 234, 0.4);
+}
