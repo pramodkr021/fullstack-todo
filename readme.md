@@ -1,7 +1,7 @@
 # Assignment 7 : Identifying APIs for To-Do List App
 
 <h2>Overview of the repo</h2>
-<p><a href="https://github.com/pramodkr021/frontend-todoList" target="_blank">Frontend</a> currently deployed on netlify. <br>
+<p>Frontend currently deployed on netlify. <br>
     <a href="https://react-todo-pkr.netlify.app/">https://react-todo-pkr.netlify.app</a><br>
     <br>
     Backend deployed on render
