@@ -7,16 +7,8 @@
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pramodkr021/express-assignment.git"
-  },
   "author": "Pramod Kumar",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/pramodkr021/express-assignment/issues"
-  },
-  "homepage": "https://github.com/pramodkr021/express-assignment#readme",
   "dependencies": {
     "bcrypt": "^6.0.0",
     "cors": "^2.8.5",
